@@ -160,7 +160,7 @@ export default function FormScreen() {
       showToast({
         type: 'error',
         text1: 'Invalide!',
-        text2: 'Please enter valide name, use Apostrophe',
+        text2: 'Please enter Capital letters',
       });
       return false;
     }
@@ -196,7 +196,7 @@ export default function FormScreen() {
       showToast({
         type: 'error',
         text1: 'InValide!',
-        text2: 'Please enter mobile',
+        text2: 'Please enter 10 digits number',
       });
       return false;
     }
@@ -215,7 +215,7 @@ export default function FormScreen() {
       showToast({
         type: 'error',
         text1: 'Required!',
-        text2: 'Please enter DOB',
+        text2: 'Please enter zip code',
       });
 
       return false;
